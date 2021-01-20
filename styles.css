@@ -1,0 +1,51 @@
+body{ 
+    font-family: 'Handlee', cursive;
+    background-color:black;
+}
+
+.maincontainer {
+display:flex;
+justify-content:center;
+margin-top:50px;
+}
+
+.centered{
+    height:600px;
+    width:500px;
+    background-color: white;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;   
+}
+
+.header_left{
+    display:inline-flex;
+}
+
+.header_text { 
+    font-size: 70%;
+    padding-left:10px;
+}
+
+.header_text span{
+    font-weight: bold;
+}
+
+.image img{
+    max-width: 100%;
+    height:auto;
+}
+
+.description_post{
+     padding:10px;
+}
+
+.description_icons{
+    display:flex;
+    justify-content: space-between;   
+}
+
